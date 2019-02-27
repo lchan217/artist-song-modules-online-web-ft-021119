@@ -1,5 +1,5 @@
 module Paramable 
-  def self.to_param
+  def to_param
     name.downcase.gsub(' ', '-')
   end
 end
